@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="ex">
+        <div class="ex-1 container">
+            <h2>Bài 1</h2>
+            <div class="content">
+                <div class="content__input">
+                    <h1>Tính tiền lương</h1>
+                    <input id="nhapsongay" type="text" placeholder="Nhập số ngày công">
+                    <button onclick="tinhluong()" id="tinh">Tính</button>
+                </div>
+
+            </div>
+            <div class="output">
+                <div class="content">
+                    <h2>Output</h2>
+                    <div class="content__output">
+                        <h3>Tiền lương :</h3>
+                        <p id="luongOutput"></p>
+                        <p id="vnd"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ex-2 container">
+            <h2>Bài 2</h2>
+            <div class="content">
+                <div class="content__input">
+                    <h1>Tìm giá trị trung bình</h1>
+                    <input id="nhap-1" type="text" placeholder="Nhập số thứ nhất">
+                    <input id="nhap-2" type="text" placeholder="Nhập số thứ hai">
+                    <input id="nhap-3" type="text" placeholder="Nhập số thứ ba">
+                    <input id="nhap-4" type="text" placeholder="Nhập số thứ bốn">
+                    <input id="nhap-5" type="text" placeholder="Nhập số thứ năm">
+                    <button onclick="tinhgiatriTB()" id="tim">Tìm</button>
+                </div>
+            </div>
+            <div class="output">
+                <div class="content">
+                    <h2>Output</h2>
+                    <div class="content__output">
+                        <h3>Giá trị trung bình của 5 số :</h3>
+                        <p id="giatriOutput"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ex-3 container">
+            <h2>Bài 3</h2>
+            <div class="content">
+                <div class="content__input">
+                    <h1>Quy đổi tiền</h1>
+                    <input id="nhap-usd" type="text" placeholder="Nhập số tiền USD">
+                    <button onclick="quyDoiTien()" id="quydoi">Quy đổi</button>
+                </div>
+            </div>
+            <div class="output">
+                <div class="content">
+                    <h2>Output</h2>
+                    <div class="content__output">
+                        <h3>Số tiền VND tương ứng là :</h3>
+                        <p id="tienVND"></p>
+                        <p id="vnd"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ex-4 container">
+            <h2>Bài 4</h2>
+            <div class="content">
+                <div class="content__input">
+                    <h1>Tính diện tích, chu vi hình chữ nhật</h1>
+                    <input type="text" name="" id="nhap-dai" placeholder="Nhập chiều dài hình chữ nhật">
+                    <input type="text" name="" id="nhap-rong" placeholder="Nhập chiều dài hình chữ nhật">
+                    <button onclick="tinhDTCV()" id="tinhDTCV">Tính</button>
+                </div>
+            </div>
+            <div class="output content">
+                <h2>Output</h2>
+                <div class="content__output-4">
+                    <div class="output__item">
+                        <h2>Diện tích :</h2>
+                        <p id="outDT"></p>
+                        <p id="endDT"></p>
+                    </div>
+                    <div class="output__item">
+                        <h2>Chu vi :</h2>
+                        <p id="outCV"></p>
+                        <p id="endCV"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ex-5 container">
+            <h2>Bài 5</h2>
+            <div class="content">
+                <div class="content__input">
+                    <h1>Tính tổng kí số</h1>
+                    <input id="nhapX" type="text" placeholder="Nhập số tự nhiên có 2 chứ số">
+                    <button onclick="tinhTongKiSo()" id="tinhTongKiSo">Tính</button>
+                </div>
+            </div>
+            <div class="output">
+                <div class="content">
+                    <h2>Output</h2>
+                    <div class="content__output">
+                        <h3>Tổng 2 kí số :</h3>
+                        <p id="tongki"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
